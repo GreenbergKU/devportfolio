@@ -104,8 +104,8 @@ footer{padding:50px 0}.copyright{padding-top:20px}
 .about-img{display:grid; justify-content:center; padding: 0%}
 #about img{margin-left: 10%}
 #about p{display:grid; color:#74808a; margin:0; height:100%; padding-right: 5%}
-#experience{padding:50px 15px;text-align:center;border-bottom:1px solid #dcd9d9}
-#experience h2{color:#374054}
+#past-experience{padding:50px 15px;text-align:center;border-bottom:1px solid #dcd9d9}
+#past-experience h2{color:#374054}
 #experience-timeline{margin:30px auto 0 auto;position:relative;max-width:1000px}
 #experience-timeline:before{position:absolute;content:'';top:0;bottom:0;left:303px;right:auto;height:100%;width:3px;background:#3498db;z-index:0}
 #experience-timeline:after{position:absolute;content:'';width:3px;height:40px;background:#3498db;background:linear-gradient(to bottom, #3498db, rgba(52,152,219,0));top:100%;left:303px}
@@ -118,8 +118,8 @@ footer{padding:50px 0}.copyright{padding-top:20px}
 .vtimeline-icon i{display:block;font-size:2em;margin-top:10px}
 .vtimeline-date{width:260px;text-align:right;position:absolute;left:0;top:10px;font-weight:300;color:#374054}
 
-#education{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
-#education h2{color:#374054;margin-bottom:50px}.education-block{max-width:700px;margin:0 auto 30px auto;padding:15px;border:1px solid #dcd9d9;text-align:left}.education-block h3{font-weight:500;float:left;margin:0;color:#374054}.education-block span{color:#74808a;float:right}.education-block h4{color:#74808a;clear:both;font-weight:500;margin:0 0 15px 0}
+#training&education{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
+#training&education h2{color:#374054;margin-bottom:50px}.education-block{max-width:700px;margin:0 auto 30px auto;padding:15px;border:1px solid #dcd9d9;text-align:left}.education-block h3{font-weight:500;float:left;margin:0;color:#374054}.education-block span{color:#74808a;float:right}.education-block h4{color:#74808a;clear:both;font-weight:500;margin:0 0 15px 0}
 
 .education-block p,
 .education-block ul{margin:0;color:#74808a;font-size:0.9em}
@@ -132,10 +132,10 @@ footer{padding:50px 0}.copyright{padding-top:20px}
 .project-info p{color:#74808a;margin:0 0 15px 0;font-size:0.9em}
 .no-image project-info{position:relative;margin:0;padding:30px 15px;transform:none}
 #more-projects{display:none}
-#skills{padding:50px 15px;text-align:center}
-#skills h2{color:#374054;margin-bottom:50px}
-#skills ul{display:block;margin:0 auto;padding:0;max-width:800px}
-#skills li{display:inline-block;margin:7px;padding:5px 10px;color:#374054;background:#e4e4ea;list-style:none;cursor:default;font-size:1.2em}
+#skills-overview{padding:50px 15px;text-align:center}
+#skills-overview h2{color:#374054;margin-bottom:50px}
+#skills-overview ul{display:block;margin:0 auto;padding:0;max-width:800px}
+#skills-overview li{display:inline-block;margin:7px;padding:5px 10px;color:#374054;background:#e4e4ea;list-style:none;cursor:default;font-size:1.2em}
 #contact{padding:50px 15px;background:#3498db;text-align:center}
 #contact h2{margin:0 0 15px 0;color:#fff;font-weight:500}
 #contact-form{max-width:500px;margin:0 auto}
