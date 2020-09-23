@@ -128,6 +128,7 @@ footer{padding:50px 0}.copyright{padding-top:20px}
 #projects{padding:50px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
 #projects h2{color:#374054;margin-bottom:50px}.project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px}
 .project-image{float:left}.project-info{position:absolute;top:50%;transform:translateY(-50%);margin-left:300px;padding:15px}
+.project-image-mobile{display:none}
 .project-info h3{font-size:1.5em;font-weight:300;color:#374054;margin:0 0 15px 0}
 .project-info p{color:#74808a;margin:0 0 15px 0;font-size:0.9em}
 .project-links > a{display:block}
@@ -209,8 +210,12 @@ footer{padding:50px 0}.copyright{padding-top:20px}
     .education-block span{float:none}
 
     .project-image{display:none}
+    .project-image-mobile{display:block;}
+    .img-mobile-square{height:200px;width:200px; margin: 0 0 20px 0}
+    .img-mobile-rectangle{height:200px;width:250px; margin: 0 0 20px 0}
     #img-giff {display:block}
     .project-info{position:relative;margin:0;padding:30px 15px;top:auto;transform:none}
+    
     footer{text-align:center}
     .social{text-align:center}
 }
