@@ -532,11 +532,17 @@ footer {
 .education-block ul {
   margin: 0;
   color: #74808a;
+  
+}
+
+.education-block p {
+  padding: 0 15px 5px;
   font-size: 0.9em;
 }
 
 .education-block ul {
-  padding: 0 0 0 15px;
+  padding: 0 30px 0;
+  font-size: 0.8em;
 }
 
 #projects {
@@ -592,7 +598,7 @@ footer {
   display: block;
 }
 
-#img-giff {
+.img-giff {
   display: none;
 }
 
