@@ -366,23 +366,26 @@ footer {
   width: 100%;
   text-align: center;
 }
-
-.about-img {
-  display: grid;
-  justify-content: center;
-  padding: 0%;
+#about img {
+  width: 150%;
+  margin: 5%;
 }
 
-#about img {
-  margin-left: 10%;
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 100%;
 }
 
 #about p {
   display: grid;
   color: #74808a;
+  font-size: 1em;
   margin: 0;
   height: 100%;
-  padding-right: 5%;
+  padding: 5%;
 }
 
 #past-experience {
@@ -516,6 +519,13 @@ footer {
   color: #374054;
 }
 
+.education-block h3 p {
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: 300;
+  padding: 0;
+}
+
 .education-block span {
   color: #74808a;
   float: right;
@@ -528,21 +538,27 @@ footer {
   margin: 0 0 15px 0;
 }
 
+.education-block h4 p {
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 400;
+  padding: 0;
+}
+
 .education-block p,
 .education-block ul {
   margin: 0;
   color: #74808a;
-  
 }
 
 .education-block p {
   padding: 0 15px 5px;
-  font-size: 0.9em;
 }
 
 .education-block ul {
-  padding: 0 30px 0;
-  font-size: 0.8em;
+  padding: 3px 40px;
+  font-size: 0.9em;
+  font-weight: 300;  
 }
 
 #projects {
@@ -596,10 +612,6 @@ footer {
 
 .project-links > a {
   display: block;
-}
-
-.img-giff {
-  display: none;
 }
 
 .no-image project-info {
@@ -822,6 +834,8 @@ footer {
 
   #about img {
     margin: 0;
+    width: auto;
+    
   }
 }
 
@@ -869,6 +883,10 @@ footer {
     display: none;
   }
 
+  #about img {
+    width: auto;
+  }
+
   .education-block h3,
   .education-block span {
     float: none;
@@ -892,10 +910,6 @@ footer {
     height: 200px;
     width: 250px;
     margin: 0 0 20px 0;
-  }
-
-  #img-giff {
-    display: block;
   }
 
   .project-info {
@@ -927,5 +941,9 @@ footer {
   #lead-content a {
     font-size: 0.9em;
     padding: 5px 10px;
+  }
+
+  #about img {
+    width: auto;
   }
 }
