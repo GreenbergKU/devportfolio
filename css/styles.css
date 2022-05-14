@@ -451,11 +451,38 @@ footer {
   color: #7e8890;
   margin: 0 0 15px 0;
 }
+/*
+.data-date p,
+.data-date ul { 
+  margin: 0;
+  color: #74808a;
+}
+
+.data-date p {
+  padding: 0 15px 5px;
+}
+
+.data-date ul {
+  padding: 3px 40px;
+  font-size: 0.9em;
+  font-weight: 300;  
+}
+*/
+.vtimeline-content p,
+.vtimeline-content ul {
+  color: #74808a;
+  margin: 0;
+}
 
 .vtimeline-content p {
-  color: #74808a;
+  padding: 0 15px 5px;
+  font-weight: 400;
+}
+
+.vtimeline-content ul {
+  font-weight: 300;
+  padding: 0 40px 10px;
   font-size: 0.9em;
-  margin: 0;
 }
 
 .vtimeline-point {
